@@ -1,0 +1,48 @@
+.toolbar{
+    position: absolute;
+    border-radius: 1.6rem;
+    height: 50px;
+    width: 50px;
+    border: 3px solid black
+    ;
+    background-color:darkkhaki;
+    transition: all 0.5s;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: transparent;
+    align-items: center;
+
+    
+}
+input{
+    opacity: 0;
+}
+.toolbar:hover .svg{
+
+    opacity: 1;
+
+
+}
+.toolbar:hover{
+    border-radius: 1.6rem;
+    width:330px;
+    padding: 5px;
+
+    color: black;
+
+}
+.toolbar:hover input{
+    opacity: 1;
+}
+.s{
+
+    opacity: 1;
+}
+.toolbar:hover .s{
+    opacity: 0;
+}
+.toolbar .svg{
+    opacity: 0;
+}
